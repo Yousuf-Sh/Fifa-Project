@@ -1,0 +1,411 @@
+body{
+    overflow-x: hidden;
+}
+
+.background{
+    background-color: #f7f9fc;
+    padding: 70px;
+}
+
+.main_nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    height: 4rem;
+    border-bottom: 1px solid #e4e8f0;
+}
+
+#fifa_img{
+    width:120px; 
+    height:40px;
+}
+
+.main_nav_store_ticket_login {
+    position: absolute;
+    right: 2rem;
+    justify-content: space-evenly;
+    line-height: 160%;
+    font-family: Open Sans Regular;
+    text-transform: none;
+    font-size: 14px;
+    color: #000f2c;
+}
+
+#main_nav_store {
+    border-left: 1px solid #e4e8f0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+#main_nav_ticket {
+    border-left: 1px solid #e4e8f0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+#main_nav_login {
+    border-left: 1px solid #e4e8f0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+/*submenu */
+
+.dropbtn {
+    background-color: #c0c0c0;
+    color: white;
+    padding: 1px;
+    font-size: 5px;
+    border: none;
+  }
+  
+  .dropdown {
+    width: 10%;
+    margin: 1px;
+    padding: 1px;
+    padding-left: 0px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content1 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content1 a:hover {background-color: white;}
+  
+  .dropdown1:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: white;}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    color: black;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+    text-decoration: none;
+    
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #0a5bfc;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed; 
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  .dropdown-content .header {
+    background: white;
+    padding: 16px;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .column {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #e4e8f0;
+    color: #0a5bfc;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+.breadcrumb_container{
+    border-top: 1px solid #e4e8f0;
+    border-bottom: 1px solid #e4e8f0;
+}
+
+.breadcrumb_menu{
+    padding: 1px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+.breadcrumb_menu_li {
+    display: inline;
+    font-size: 18px;
+}
+
+.breadcrumb_menu_li+li:before {
+    
+    color: black;
+    content: ">\00a0";
+}
+
+.breadcrumb_menu_li_a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.breadcrumb_menu_li_a:hover {
+    color: #0275d8;
+    background-color: #e4e8f0;
+}
+
+#world_ranking_heading{
+    padding: 20px;
+    padding-left: 60px;
+    margin-left: 20px;
+}
+
+.news_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#news_row_load_more{
+    display: none;
+}
+
+.news_container{
+    width: 260px;
+    height: auto;
+    margin: 15px;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+
+.news_container_img{
+    width: 260px;
+    height: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.news_container_a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.news_container_texts{
+    padding: 15px;
+    color: black;
+    text-overflow: ellipsis;
+}
+
+.news_container_simple_text{
+    font-size: 16px;
+    font-family: Open Sans Regular;
+}
+
+#news_container_heading_text{
+    font-size: 18px;
+    font-family: Open Sans Semibold;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+button{
+    font-size: 18px;
+    font-family: "Open Sans Bold";
+    color: white;
+    background-color: #1277d9;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 24px;
+
+}
+
+#load_more_button{
+    display: flex;
+    justify-content: center;
+    background-color: #f7f9fc;
+}
+
+.background_two{
+    background-color: #f7f9fc;
+    padding: 70px;
+    padding-top: 0px;
+}
+
+
+.fifa_partners{
+    border-top: 1px solid rgb(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.fifa_partners_heading {
+    text-align: center;
+    margin: 30px;
+}
+
+.fifa_partners_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fifa_partners_img{
+    width: auto;
+    height: auto;
+    margin: 40px;  
+}
+
+footer{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+#footer_container{
+    margin: 30px;
+    margin-left: 100px;
+}
+
+#footer_heading {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.footer_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.footer_ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.footer_second_ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 60px;
+}
+
+.footer_ul_li{
+    margin: 5px;
+}
+
+.footer_ul_li_a{
+    color: #505b73;
+    font-size: 18px;
+    font-family: Open Sans Regular;
+    text-decoration: none;
+}
+
+.footer_ul_li_a:hover {
+    color: #0a5bfc;
+}
+
+.footer_img{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    margin-left: 0px;
+   
+}
+
+#footer_fifa_img{
+    width:120px; 
+    height:50px;
+}
+
+.footer_third_ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.footer_third_ul_li{
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.footer_third_ul_li_a{
+    color: #505b73;
+    font-size: 15px;
+    font-family: Open Sans Regular;
+    text-decoration: none;
+}
+
+.footer_third_ul_li_a:hover {
+    color: #0a5bfc;
+}
+
+#language{
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    border: 1px solid rgb(0, 0, 0, 0.9);
+    border-radius: 5px;
+    background-image:url(images/language.jpg);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    margin-left: 40%;
+}

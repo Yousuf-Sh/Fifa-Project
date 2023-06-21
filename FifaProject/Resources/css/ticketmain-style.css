@@ -1,0 +1,99 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    position: relative;
+}
+nav{
+    background-color: #550065;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 10px;
+    z-index: 5;
+}
+.logo{
+    display: inline;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+#ham{
+    height: 28px;
+    width: 28px;
+    margin-left: 15px;
+    
+    border-radius: 100;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 50px;
+    font-weight: 610;
+    font-size: .875rem;
+}
+a:hover{
+    color: #D5C46C;
+}
+.hero{
+    background-image: url("../images/FIFAPLUS_WOMEN-SWORLDCUP_TICKETS-BANNER-1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    padding-top: 200px;
+    padding-bottom: 300px;
+
+}
+.hero2{
+    background-image: url("../images/FWC2022_NewZealand_Hospitality_Banner_05.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    padding-top: 200px;
+    padding-bottom: 300px;
+
+}
+.hero3{
+    background-image: url("../images/U20_INDONESIA-WC_2023_Banner.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    padding-top: 200px;
+    padding-bottom: 300px;
+
+}
+.hero4{
+    background-image: url("../images/FIFAPLS_PR_WorldCup2026_Announcement_Thumb_03.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    padding-top: 300px;
+    padding-bottom: 50px;
+
+}
+.hero h1{
+    font-size: 18pt;
+}
+.hero2 h1{
+    font-size: 18pt;
+}
+.container{
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+button{
+    background-color: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    border-radius: 30px;
+   padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
